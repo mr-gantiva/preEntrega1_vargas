@@ -1,7 +1,7 @@
 let mensajeMenu =
   "Bienvenido a nuestra Tienda\nSeleccione una opción para continuar:\n1️⃣ 🏪Ver productos de la tienda\n0️⃣ 🚪Salir";
 let mensajeProductos =
-  "1️⃣ 🎧Audifonos In Ear - $19.990\n2️⃣ 🖱️HyperX Mouse Gamer - $17.990\n3️⃣ 🖨️Impresora 3D - $184.990\n4️⃣ 🎮Control Xbox Wireless - $63.990\n5️⃣ 💾Kingston Unidad SSD Gen4 - $100.990\n6️⃣ 🛒VER CARRITO\n7️⃣ 🧾PAGAR\n0️⃣ ↩️Volver";
+  "Selecciona el producto que deseas comprar:\n1️⃣ 🎧Audifonos In Ear - $19.990\n2️⃣ 🖱️HyperX Mouse Gamer - $17.990\n3️⃣ 🖨️Impresora 3D - $184.990\n4️⃣ 🎮Control Xbox Wireless - $63.990\n5️⃣ 💾Kingston Unidad SSD Gen4 - $100.990\n6️⃣ 🛒VER CARRITO\n7️⃣ 🧾PAGAR\n0️⃣ ↩️Volver";
 
 let total = 0;
 
@@ -62,7 +62,7 @@ function tienda() {
         medioDePago();
         break;
       default:
-        mostrarMenuPrincipal();
+        // alert("⚠️Ingrese una opción correcta");
         break;
     }
   } while (opcion != 0);
